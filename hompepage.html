@@ -3,62 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Instagram Navbar</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <h3>Instagram</h3>
-        </div>
+    <header class="header">
+        <div class="logo">Instagram</div>
         
-        <div class="icons">
-            <a href="#">❤️</a> <!-- Placeholder for like icon -->
-            <a href="#">✉️</a> <!-- Placeholder for direct message icon -->
-        
-        </div>
-        <div class="story-container">
-            <div class="story">
-                <div class="story-avatar">
-                    <img src="https://via.placeholder.com/100.png?text=User1" alt="User 1" />
+        <nav class="nav">
+            <a href="#">❤️</a>
+            <a href="#">💬</a>
+            
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="stories">
+            <h2>Stories</h2>
+            <div class="story-container">
+                <div class="story">
+                    <img src="https://via.placeholder.com/80" alt="Story 1" class="story-image">
+                    <p>User1</p>
                 </div>
-                <p>User 1</p>
-            </div>
-            <div class="story">
-                <div class="story-avatar">
-                    <img src="https://via.placeholder.com/100.png?text=User2" alt="User 2" />
+                <div class="story">
+                    <img src="https://via.placeholder.com/80" alt="Story 2" class="story-image">
+                    <p>User2</p>
                 </div>
-                <p>User 2</p>
-            </div>
-            <div class="story">
-                <div class="story-avatar">
-                    <img src="https://via.placeholder.com/100.png?text=User3" alt="User 3" />
+                <div class="story">
+                    <img src="https://via.placeholder.com/80" alt="Story 3" class="story-image">
+                    <p>User3</p>
                 </div>
-                <p>User 3</p>
-            </div>
-            <div class="story">
-                <div class="story-avatar">
-                    <img src="https://via.placeholder.com/100.png?text=User4" alt="User 4" />
+                <div class="story">
+                    <img src="https://via.placeholder.com/80" alt="Story 4" class="story-image">
+                    <p>User4</p>
                 </div>
-                <p>User 4</p>
             </div>
-            <div class="story">
-                <div class="story-avatar">
-                    <img src="https://via.placeholder.com/100.png?text=User5" alt="User 5" />
+        </section>
+
+        <section class="posts">
+            <article class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/40" alt="Profile Picture" class="profile-pic">
+                    <h3>User1</h3>
                 </div>
-                <p>User 5</p>
-            </div>
-        </div>
-    </nav>
-</body>
-</html>
+                <img src="https://via.placeholder.com/500" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn">❤️</button>
+                    <button class="comment-btn">💬</button>
+                </div>
+                <p class="likes">100 likes</p>
+                <p class="caption"><strong>User1</strong> Caption for the image.</p>
+            </article>
+
+            <article class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/40" alt="Profile Picture" class="profile-pic">
+                    <h3>User2</h3>
+                </div>
+                <img src="https://via.placeholder.com/500" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn">❤️</button>
+                    <button class="comment-btn">💬</button>
+                </div>
+                <p class="likes">200 likes</p>
+                <p class="caption"><strong>User2</strong> Another image caption.</p>
+            </article>
+
+            <article class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/40" alt="Profile Picture" class="profile-pic">
+                    <h3>User3</h3>
+                </div>
+                <img src="https://via.placeholder.com/500" alt="Post Image" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn">❤️</button>
+                    <button class="comment-btn">💬</button>
+                </div>
+                <p class="likes">150 likes</p>
+                <p class="caption"><strong>User3</strong> More captions.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Instagram Clone. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
