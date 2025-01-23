@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #fafafa;
@@ -24,7 +23,7 @@ body {
 
 .login-container input {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
@@ -63,4 +62,46 @@ body {
 .login-container .forget-password a {
     color: #0095f6;
     text-decoration: none;
+}
+
+footer {
+    background-color: #f2f2f2; /* Light background for contrast */
+    padding: 20px; /* Padding for space */
+    text-align: center; /* Center the text */
+    font-size: 14px; /* Font size */
+    position: absolute; /* Position the footer at the bottom */
+    bottom: 0; /* Push the footer to the bottom */
+    width: 100%; /* Take up the full width of the page */
+}
+
+.footer-content {
+    max-width: 800px; /* Maximum width for footer content */
+    margin: 0 auto; /* Center the footer */
+    position: relative; /* Create a new positioning context */
+    bottom: 0; /* Push the footer to the bottom */
+}
+
+.footer-links {
+    display: flex; /* Flexbox to display links */
+    flex-wrap: wrap; /* Wrap links if they overflow */
+    justify-content: center; /* Center links */
+    margin-bottom: 10px; /* Space below the links */
+}
+
+.footer-links a {
+    margin: 0 15px; /* Spaces between links */
+    color: #0073e6; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer-language {
+    margin-bottom: 10px; /* Space below language option */
+}
+
+footer p {
+    color: #666; /* Lighter text color for copyright */
 }
