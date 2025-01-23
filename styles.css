@@ -10,7 +10,7 @@ html, body {
     height: 100%; /* Ensure the body takes the full height */
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 body {
@@ -37,7 +37,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Form Styles */
+/* Heading Styles for Instagram Title */
+
+.container h1 {
+    font-family: 'Billabong' ; /* Use a font similar to the original Instagram font */
+    font-size: 42px; /* Adjust font size */
+    margin-bottom: 15px; /* Adjust space between title and sign-up prompt */
+}
 
 /* Form Styles */
 
@@ -68,7 +74,7 @@ body {
 }
 
 .signup-form input:focus {
-    border-color:lightblue; /* Change border color on focus */
+    border-color: lightblue; /* Change border color on focus */
     outline: none; /* Remove default outline */
 }
 
@@ -76,7 +82,7 @@ body {
     padding: 10px;
     font-size: 14px;
     width: 100%;
-    background-color:#1E90FF;
+    background-color: #1E90FF;
     color: white;
     border: none;
     border-radius: 5px;
@@ -97,22 +103,39 @@ body {
 }
 
 /* Footer Styles */
+/* Footer Styles */
 footer {
-    text-align: center;
-    padding: 20px;
+    text-align: center; /* Center text inside footer */
+    padding: 20px; /* Padding around footer */
+    background-color: #fff; /* Optional background color for contrast */
 }
 
 .footer-container {
-    text-align: center;
-    margin-top: 30px;
+    display: flex; /* Use Flexbox to align items */
+    flex-direction: column; /* Set items to stack vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 0 auto; /* Center horizontally within its parent */
+    padding: 20px; /* Padding within the footer container */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 330px; /* Limit maximum width */
+    margin-top: auto; /* Push footer to the bottom of the page */
 }
 
 .footer {
-    font-size: 14px;
+    font-size: 14px; /* Font size for footer text */
 }
 
 .footer a {
-    color: #26c6da;
+    color: #26c6da; /* Color for footer links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Hover effect for footer links */
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* App Download Styles */
