@@ -3,24 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Instagram Signup Clone</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Instagram Signup</title>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="instagram-logo.png" alt="Instagram Logo">
-        </div>
-        <form class="signup-form">
-            <input type="text" placeholder="Email" required>
-            <input type="text" placeholder="Full Name" required>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Sign Up</button>
-        </form>
-        <div class="footer">
-            <p>Have an account? <a href="#">Log in</a></p>
+    <div class="outer-container">
+        <div class="container narrow">
+            <h1>Instagram</h1> <!-- Title of the form -->
+            <p>Sign up to see photos and videos from your friends.</p>
+            <form class="signup-form">
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p class="terms">
+                By signing up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a>, and <a href="#">Cookies Policy</a>.
+            </p>
+            <div class="footer-container">
+                <p class="footer">
+                    Have an account? <a href="#">Log in</a>
+                </p>
+            </div>
+   
+            </p>
         </div>
     </div>
+    <footer>
+        <h2>Get the app.</h2>
+        <p>
+            <a href="#">
+                <img src="images/playstore-removebg-preview.png" alt="Get it on Google Play" style="width: 150px; margin: 10px;"/>
+            </a>
+            <a href="#">
+                <img src="images/microsoft-removebg-preview.png" alt="Get it from Microsoft" style="width: 150px; margin: 10px;"/>
+            </a>
+        <p>2024 Instagram from Meta</p>
+        <p>
+            <a href="#">About</a> | 
+            <a href="#">Blog</a> | 
+            <a href="#">Jobs</a> | 
+            <a href="#">Help</a> | 
+            <a href="#">API</a> | 
+            <a href="#">Privacy</a> | 
+            <a href="#">Terms</a> | 
+            <a href="#">Locations</a> | 
+            <a href="#">Instagram Lite</a> | 
+            <a href="#">Threads</a> | 
+            <a href="#">Contact Uploading & Non-Users</a> | 
+            <a href="#">Meta Verified</a>
+        </p>
+    </footer>
 </body>
 </html>
