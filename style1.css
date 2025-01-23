@@ -47,7 +47,7 @@ body {
 
 .login-container input {
     width: 100%;
-    padding: 10px; 
+    padding: 10px; /* Increased padding for better input size */
     margin-bottom: 10px;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
@@ -91,11 +91,11 @@ body {
 footer {
     background-color: #fafafa; 
     padding: 20px;
-    text-align: center; 
-    font-size: 14px; 
-    position: absolute; 
-    bottom: 0;
-    width: 100%; 
+    text-align: center; /* Center the text */
+    font-size: 14px; /* Font size */
+    position: absolute; /* Position the footer at the bottom */
+    bottom: 0; /* Push the footer to the bottom */
+    width: 100%; /* Take up the full width of the page */
 }
 
 .footer-content {
@@ -118,7 +118,7 @@ footer {
 }
 
 .footer-links a:hover {
-    text-decoration: underline; 
+    text-decoration: underline; /* Underline on hover */
 }
 
 .footer-language {
