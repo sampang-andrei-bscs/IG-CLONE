@@ -1,137 +1,115 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000;  /* Set background color to black */
-    color: #fff;              /* Set default text color to white */
-}
-
-.header {
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #3e5da6;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: black; /* Dark gray for header */
-    border-bottom: 1px solid #333; /* Lighter border for contrast */
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff; /* Logo color */
-}
-
-.search-bar {
-    width: 300px;
-    padding: 5px;
-    border: 1px solid #555; /* Border color adjusted for dark theme */
-    border-radius: 5px;
-    background-color: #2b2b2b; /* Input background */
-    color: #fff; /* Input text color */
-}
-
-.nav a {
-    margin-left: 20px;
+  }
+  
+  .header-logo {
+    margin-right: 1rem;
+  }
+  
+  .signup-link {
+    color: #337ab7;
     text-decoration: none;
-    color: #fff; /* Link color */
-}
-
-.login-btn {
-    background-color: #0095f6; /* Color for login button */
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-.main-content {
-    padding: 20px;
-}
-
-.stories {
-    margin-bottom: 20px;
-}
-
-h2 {
-    margin-bottom: 10px;
-    color: #fff; /* Change subtitle color */
-}
-
-.story-container {
+  }
+  
+  .signup-link:hover {
+    color: #23527c;
+  }
+  
+  main {
     display: flex;
-}
-
-.story {
-    margin-right: 10px;
-    text-align: center;
-}
-
-.story-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid #0095f6; /* Story border color */
-}
-
-.posts {
-    width: 100%;
-}
-
-.post {
-    margin-bottom: 20px;
-    background-color: #1c1c1c; /* Dark gray for posts background */
-    border: 1px solid #333; /* Light border for posts */
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.post-header {
-    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.profile-pic {
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.post-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.post-actions {
+    height: 100vh;
+  }
+  
+  .signup-container {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .signup-form {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 10px 0;
-}
-
-.like-btn, .comment-btn {
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #3e5da6;
+    color: #fff;
+    padding: 1rem;
     border: none;
-    background: none;
-    font-size: 20px;
+    border-radius: 0.25rem;
     cursor: pointer;
-    color: #fff; /* Button colors for dark theme */
-}
-
-.likes {
-    font-weight: bold;
-}
-
-.caption {
-    margin: 5px 0 0;
-    color: #fff; /* Caption color */
-}
-
-.footer {
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  .terms {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .terms-link {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  .terms-link:hover {
+    color: #23527c;
+  }
+  
+  footer {
+    background-color: #3e5da6;
+    color: #fff;
+    padding: 1rem;
     text-align: center;
-    padding: 20px 0;
-    background-color: #1c1c1c; /* Dark gray for footer */
-    border-top: 1px solid #333; /* Lighter border for contrast */
-    color: #fff; /* Footer text color */
-}
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-link {
+    margin: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    color: #ccc;
+  }
