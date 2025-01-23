@@ -10,10 +10,10 @@ body {
 
 .login-container {
     background-color: white;
-    padding: 20px;
+    padding: 100px; /* Increased padding for more height */
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 230px;
 }
 
 .login-container h2 {
@@ -65,8 +65,8 @@ body {
 }
 
 footer {
-    background-color: #f2f2f2; /* Light background for contrast */
-    padding: 20px; /* Padding for space */
+    background-color: #fafafa; 
+    padding: 20px;
     text-align: center; /* Center the text */
     font-size: 14px; /* Font size */
     position: absolute; /* Position the footer at the bottom */
