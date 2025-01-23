@@ -3,39 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Signup Page</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Instagram Signup Clone</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#" class="logo">Instagram</a>
-            <a href="#" class="signup-link">Sign up</a>
-        </nav>
-    </header>
-    <main>
-        <section class="signup-container">
-            <h1>Join Instagram</h1>
-            <form class="signup-form" id="signup-form">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="Username">
-                <label for="email">Email or Phone Number</label>
-                <input type="email" id="email" name="email" placeholder="Email or Phone Number">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Password">
-                <button type="submit">Sign up</button>
-            </form>
-            <p class="terms">By signing up, you agree to our <a href="#" class="terms-link">Terms of Service</a> and <a href="#" class="terms-link">Privacy Policy</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-links">
-            <a href="#" class="footer-link">Help</a>
-            <a href="#" class="footer-link">About</a>
-            <a href="#" class="footer-link">Terms of Service</a>
-            <a href="#" class="footer-link">Privacy Policy</a>
-            <a href="#" class="footer-link">Cookies</a>
+    <div class="container">
+        <div class="logo">
+            <img src="instagram-logo.png" alt="Instagram Logo">
         </div>
-    </footer>
+        <form class="signup-form">
+            <input type="text" placeholder="Email" required>
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="footer">
+            <p>Have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>
