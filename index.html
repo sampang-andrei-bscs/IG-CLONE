@@ -13,16 +13,24 @@
 <nav class="navbar">
     <div class="nav-wrapper">
         <img src="images/logo2.png" class="brand-img" alt="">
-        <div class="center-section">
-            <input 
-            type="text" 
-                class="search" 
-                placeholder="Search" 
-                onclick="redirectToSearch()">
-        </div>
+        <input type="text" class="search-box" placeholder="search">
         <div class="nav-items">
             <img src="images/home.PNG" class="icon" alt="">
             <img src="images/messenger.PNG" class="icon" alt="">
+            <nav class="navbar">
+                <div class="nav-wrapper">
+                    <img src="images/logo2.png" class="brand-img" alt="">
+                    <input type="text" class="search-box" placeholder="search">
+                    <div class="nav-items">
+                        <img src="images/home.PNG" class="icon" alt="">
+                        <a href="message.html"><img src="images/messenger.PNG" class="icon" alt=""></a>
+                        <img src="images/add.PNG" class="icon" alt="">
+                        <img src="images/explore.PNG" class="icon" alt="">
+                        <img src="images/like.PNG" class="icon" alt="">
+                        <div class="icon user-profile"></div>
+                    </div>
+                </div>
+            </nav>
             <img src="images/add.PNG" class="icon" alt="">
             <img src="images/explore.PNG" class="icon" alt="">
             <img src="images/like.PNG" class="icon" alt="">
@@ -108,7 +116,7 @@
 
                     </div>
                     <p class="likes"> 1,115 likes</p>
-                    <p class="description"> <span>carlosviray</span>Sa akin mo lang malalasap ang tunay na sarap.</p>
+                    <p class="description"> <span>carlosviray</span> You don’t have to like me; I’m not a Facebook status.</p>
                     <p class="post-time">2 days ago</p>
 
                 </div>
@@ -311,9 +319,6 @@
 <p> sample </p>
     </div>
 </section>
-<script>
-function redirectToSearch() {
-    window.location.href = "search.html";
-}</script>
+
 </body>
 </html>
