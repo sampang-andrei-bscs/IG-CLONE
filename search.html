@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>instagram</title>
+    <title>Instagram</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -61,6 +61,30 @@
             color: #333;
         }
 
+        .container {
+            text-align: center; /* Center button in the container */
+        }
+
+        .home-btn {
+            display: inline-block; /* Make link behave like a button */
+            background-color: transparent; /* No background */
+            border: none; /* No border */
+            padding: 0; /* No padding */
+            cursor: pointer; /* Change cursor to pointer */
+            text-decoration: none; /* Remove underline */
+            transition: transform 0.3s; /* Smooth scaling effect */
+        }
+
+        .home-btn .icon {
+            width: 20px; /* Set icon width (reduced) */
+            height: 20px; /* Set icon height (reduced) */
+            object-fit: contain; /* Maintain aspect ratio */
+        }
+
+        .home-btn:hover .icon {
+            transform: scale(1.1); /* Scale icon on hover */
+        }
+
         main {
             padding: 20px;
             flex-grow: 1; /* Allows the main section to expand and fill available space */
@@ -108,7 +132,11 @@
         <input type="text" placeholder="Search...">
     </div>
     <div class="nav-icons">
-        <i class="fas fa-home nav-icon"></i>
+        <div class="container">
+            <a href="index.html" class="home-btn">
+                <img src="images/home.PNG" class="icon" alt="Home Button">
+            </a>
+        </div>
         <i class="fas fa-plus nav-icon"></i>
         <i class="fas fa-heart nav-icon"></i>
         <i class="fas fa-user nav-icon"></i>
@@ -117,25 +145,25 @@
 
 <main>
     <div class="pin">
-        <img src="c:\Users\CompLabA-PC\Downloads\one.jpg" alt="Sample Pin">
+        <img src="c:/Users/CompLabA-PC/Downloads/one.jpg" alt="Sample Pin">
     </div>
     <div class="pin">
-        <img src="c:\Users\CompLabA-PC\Downloads\two.jpg" alt="Sample Pin">
+        <img src="c:/Users/CompLabA-PC/Downloads/two.jpg" alt="Sample Pin">
     </div>
     <div class="pin">
-        <img src="c:\Users\CompLabA-PC\Downloads\three.jpg" alt="Sample Pin">
+        <img src="c:/Users/CompLabA-PC/Downloads/three.jpg" alt="Sample Pin">
     </div>
     <div class="pin">
-        <img src="c:\Users\CompLabA-PC\Downloads\four.jpg" alt="Sample Pin">
+        <img src="c:/Users/CompLabA-PC/Downloads/four.jpg" alt="Sample Pin">
     </div>
     <div class="pin">
-        <img src="c:\Users\CompLabA-PC\Downloads\five.jpg" alt="Sample Pin">
+        <img src="c:/Users/CompLabA-PC/Downloads/five.jpg" alt="Sample Pin">
     </div>
     <div class="pin">
-        <img src="c:\Users\CompLabA-PC\Downloads\six.jpg" alt="Sample Pin">
+        <img src="c:/Users/CompLabA-PC/Downloads/six.jpg" alt="Sample Pin">
     </div>
     <div class="pin">
-        <img src="c:\Users\CompLabA-PC\Downloads\seven.jpg" alt="Sample Pin">
+        <img src="c:/Users/CompLabA-PC/Downloads/seven.jpg" alt="Sample Pin">
     </div>
 </main>
 </body>
